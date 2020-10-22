@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="SearchResultsWindow" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="Image_List_Box" HorizontalAlignment="Left" Height="356" Margin="10,10,0,0" VerticalAlignment="Top" Width="772"/>
+        <ListBox x:Name="Image_List_Box" HorizontalAlignment="Left" Height="330" Margin="10,43,0,0" VerticalAlignment="Top" Width="772" Background="White"/>
+        <Label Content="Select all the pictures you want in your slide, then click ok." HorizontalAlignment="Left" Height="34" Margin="14,4,0,0" VerticalAlignment="Top" Width="531"/>
+        <Button x:Name="OkButton" Content="Ok" HorizontalAlignment="Left" Margin="627,389,0,0" VerticalAlignment="Top" Width="75" Click="OkButton_Click"/>
+        <Button x:Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="707,389,0,0" VerticalAlignment="Top" Width="75" Click="CancelButton_Click"/>
     </Grid>
 </Window>

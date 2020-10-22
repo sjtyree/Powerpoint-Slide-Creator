@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Powerpoint_Slide_Creator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="478.272" Width="800">
     <Grid Margin="0,0,0,-21">
         <Grid.RowDefinitions>
             <RowDefinition Height="321*"/>
@@ -14,14 +14,15 @@
         <Label Content="Enter Slide Title:" HorizontalAlignment="Left" Height="27" Margin="10,10,0,0" VerticalAlignment="Top" Width="119" FontWeight="Bold"/>
         <TextBox x:Name="MainWindowTitleText" HorizontalAlignment="Left" Height="37" Margin="10,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="757"/>
         <Label Content="Enter Slide Text:" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Button x:Name="MainWindowButton" Content="Find Images" HorizontalAlignment="Left" Height="23" Margin="655,72.487,0,0" VerticalAlignment="Top" Width="112" Click="MainWindowButtonClick" Grid.Row="1"/>
+        <Button x:Name="MainWindowButton" Content="Find Images" HorizontalAlignment="Left" Height="23" Margin="609,74,0,0" VerticalAlignment="Top" Width="84" Click="MainWindowButtonClick" Grid.Row="1"/>
         <RichTextBox x:Name="MainWindowSlideText" HorizontalAlignment="Left" Height="253" Margin="10,115,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="757">
             <FlowDocument>
                 <Paragraph>
-                    <Run Text="RichTextBox"/>
+                    <Run Text=""/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
+        <Button x:Name="ExitButton" Content="Exit" HorizontalAlignment="Left" Margin="698,74,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="ExitButton_Click" Height="23"/>
 
     </Grid>
 </Window>
